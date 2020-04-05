@@ -1,4 +1,4 @@
-package com.ccamacho.kotlinprogrammingstudy
+package com.ccamacho.kotlinprogrammingstudy.oop
 
 open class Animal(var color: String) {
 
