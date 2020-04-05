@@ -3,6 +3,7 @@ package com.ccamacho.kotlinprogrammingstudy
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.ccamacho.kotlinprogrammingstudy.oop.CustomButton
+import com.ccamacho.kotlinprogrammingstudy.oop.User
 
 class MainActivity : AppCompatActivity() {
 
@@ -10,10 +11,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        val btn = CustomButton()
-        btn.onTouch()
-        btn.onClick()
-
+        
     }
 
 }
