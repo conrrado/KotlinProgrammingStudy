@@ -12,26 +12,3 @@ class MainActivity : AppCompatActivity() {
     }
 
 }
-
-open class Animal(var color: String) {
-
-    fun eat() {
-
-    }
-}
-
-class Dog(color: String, var breed: String): Animal(color) {
-
-    fun bark() {
-
-    }
-}
-
-class Cat(color: String, var age: Int): Animal(color) {
-
-    fun meow() {
-
-    }
-}
-
-
